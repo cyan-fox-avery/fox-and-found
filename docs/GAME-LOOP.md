@@ -2,7 +2,7 @@
 
 ## Core loop
 
-**Review current foxes → make weekly care decisions → assess capacity → open for intake → receive authored case → accept or refer → rehabilitation / partner updates → welfare outcome → professional standing → funding → upgrades → greater capability → repeat**
+**Review current foxes → make weekly care decisions → assess capacity → open for intake → receive authored case → accept or refer → rehabilitate or transfer → partner updates → welfare outcome → professional standing → funding → upgrades → greater capability → repeat**
 
 ## Time scale
 
@@ -18,9 +18,22 @@ The game should show passage of time through:
 
 Campaign duration emerges from case content and rehabilitation timelines.
 
+## Interface flow
+
+The game is organized into five main management tabs:
+
+- **Overview** — briefing, alerts, week summary, and current priorities.
+- **Foxes** — permanent residents and active case management.
+- **Intake** — intake availability and incoming case decisions.
+- **Facilities** — capacity, supplies, equipment, and upgrades.
+- **Records** — completed, referred, and transferred cases plus partner updates.
+
+A welcome screen introduces these tabs before the first week begins.
+
 ## Weekly structure
 
 ### Beginning-of-week briefing
+
 Possible updates:
 - Harley's notes
 - New fox observations
@@ -32,6 +45,7 @@ Possible updates:
 - Intake calls if Fox & Found is open
 
 ### Fox rounds
+
 Each active fox has an individual care plan. Player decisions may include:
 - Choose/change enrichment
 - Review camera observations
@@ -40,6 +54,7 @@ Each active fox has an individual care plan. Player decisions may include:
 - Move a fox to an appropriate rehabilitation stage
 - Prepare for release assessment
 - Leave the fox undisturbed when that is the best choice
+- Request transfer to a qualified partner when continuing in-house is no longer the best option
 
 Not every fox needs a decision every week.
 
@@ -70,6 +85,23 @@ The player chooses:
 - **Refer to partner facility**
 
 If referred, the fox remains part of the rescue network's history and can generate authored partner updates.
+
+## Transfer after acceptance
+
+Accepted foxes can be voluntarily transferred later.
+
+A responsible voluntary transfer:
+- does not reduce Professional Standing
+- frees Fox & Found from continuing a case it can no longer comfortably or appropriately support
+- moves the fox to a qualified partner or specialist
+- keeps the fox in Records
+- continues authored partner updates
+
+This option should be available from the active fox's case record.
+
+The game should distinguish this from emergency organizational failure. Emergency transfers can carry organizational consequences because the rescue became unstable, not because transfer itself is wrong.
+
+Loki cannot be transferred.
 
 ## Advance to next week
 

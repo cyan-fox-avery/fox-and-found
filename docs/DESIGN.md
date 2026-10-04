@@ -18,6 +18,20 @@ The player begins with a modest but legitimate rescue property, limited faciliti
 - Organizational failure may happen, but foxes should not be punished for player mistakes.
 - Use real, properly licensed wildlife photography; do not use generative AI imagery for Harley's game.
 
+## Interface direction
+
+The management interface is divided into five main tabs:
+
+- **Overview** — current week, Harley's briefing, alerts, active-case summaries, and what needs attention.
+- **Foxes** — permanent residents and active case records, care plans, milestones, observations, and case actions.
+- **Intake** — open/close intake, review incoming cases, accept or refer.
+- **Facilities** — capacity, supplies, equipment, upgrades, and property readiness.
+- **Records** — released, transferred, referred, and sanctuary outcomes plus partner updates.
+
+Funds, week/season, professional standing, and intake status remain visible outside the individual tabs.
+
+A short welcome screen introduces the rescue and explains the purpose of each tab before Week 1 begins.
+
 ## Fox roster
 
 The main campaign is planned around approximately **50 hand-authored fox cases**.
@@ -166,6 +180,24 @@ A partner organization contacts Fox & Found with a specific authored case. The p
 - **Refer to partner facility**
 
 Referral is not failure. Referred cases continue through partner-facility updates and can still reach satisfying outcomes.
+
+## Transfer after admission
+
+A fox that has already been accepted may later be transferred to a partner or specialist facility.
+
+This is a normal case-management option when:
+- assessment reveals needs beyond Fox & Found's current capabilities
+- the fox requires specialist equipment or treatment
+- the rescue becomes too stretched to continue the case comfortably
+- a different facility becomes the better welfare choice
+
+A responsible voluntary transfer does **not** reduce Professional Standing.
+
+Transferred foxes remain in the case history and continue to receive authored partner updates.
+
+Emergency mass transfers caused by organizational collapse may still carry consequences, but the consequence is for allowing the rescue to become unstable, not for transferring animals to safety.
+
+Loki is never transferable.
 
 ## Outcomes
 
