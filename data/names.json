@@ -1,12 +1,908 @@
 {
-  "status": "not yet populated",
-  "targetPoolSize": 100,
+  "status": "curated initial pool",
+  "poolSize": 121,
+  "targetPoolSize": null,
   "rules": {
     "playerNamesTakePriority": true,
     "harleyAvoidsUsedNames": true,
     "caseInsensitiveDuplicateCheck": true,
     "trimWhitespaceBeforeDuplicateCheck": true,
-    "selectionShouldConsiderFoxTraits": true
+    "selectionShouldConsiderFoxTraits": true,
+    "rareNamesShouldBeWeightedLower": true
   },
-  "names": []
+  "notes": [
+    "Loki is not part of this pool; Loki is the fixed name of FOX-001.",
+    "The pool may grow whenever a future fox suggests a good new name.",
+    "Tags are guidance for Harley's personality/appearance-aware naming system and can be refined as fox cases are authored."
+  ],
+  "names": [
+    {
+      "name": "Moss",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Fern",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Bramble",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Juniper",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Clover",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Rowan",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Hazel",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Thistle",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Sorrel",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Sage",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Cedar",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Birch",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Maple",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Willow",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Alder",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Briar",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Acorn",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Dandelion",
+      "tags": [
+        "woodland",
+        "nature"
+      ]
+    },
+    {
+      "name": "Pip",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Cricket",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Button",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Pebble",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Bean",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Fig",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Sprout",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Pippin",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Midge",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Pocket",
+      "tags": [
+        "cute",
+        "quirky",
+        "small"
+      ]
+    },
+    {
+      "name": "Dot",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Bug",
+      "tags": [
+        "small",
+        "cute"
+      ]
+    },
+    {
+      "name": "Goblin",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Bandit",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Rascal",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Mischief",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Trouble",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Gremlin",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Riot",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Ruckus",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Mayhem",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Scamp",
+      "tags": [
+        "chaotic",
+        "mischievous"
+      ]
+    },
+    {
+      "name": "Soot",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Ash",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Ember",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Copper",
+      "tags": [
+        "appearance",
+        "red-coat",
+        "warm-coat"
+      ]
+    },
+    {
+      "name": "Rust",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Smudge",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Shadow",
+      "tags": [
+        "appearance",
+        "dark-coat",
+        "shy",
+        "stealthy"
+      ]
+    },
+    {
+      "name": "Ghost",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Patch",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Speck",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Blaze",
+      "tags": [
+        "appearance"
+      ]
+    },
+    {
+      "name": "Scout",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Dash",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Rocket",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Rebel",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Comet",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Flicker",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Zip",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Tumble",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Skitter",
+      "tags": [
+        "energetic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Biscuit",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Pickle",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Noodle",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Waffle",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Muffin",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Dumpling",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Crumb",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Toast",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Peanut",
+      "tags": [
+        "food",
+        "playful"
+      ]
+    },
+    {
+      "name": "Whisper",
+      "tags": [
+        "soft",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Wisp",
+      "tags": [
+        "soft",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Dream",
+      "tags": [
+        "soft",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Echo",
+      "tags": [
+        "greek",
+        "mythology",
+        "quiet",
+        "soft"
+      ]
+    },
+    {
+      "name": "Hush",
+      "tags": [
+        "soft",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Moon",
+      "tags": [
+        "soft",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Rain",
+      "tags": [
+        "soft",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Dew",
+      "tags": [
+        "soft",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "tags": [
+        "soft",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Puck",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Wicket",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Riddle",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Trinket",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Marble",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Tinker",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Quirk",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Fidget",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Socks",
+      "tags": [
+        "quirky"
+      ]
+    },
+    {
+      "name": "Garnet",
+      "tags": [
+        "red-coat",
+        "dark-red",
+        "dignified",
+        "gemstone"
+      ]
+    },
+    {
+      "name": "Ruby",
+      "tags": [
+        "red-coat",
+        "bright",
+        "sweet",
+        "gemstone"
+      ]
+    },
+    {
+      "name": "Scarlet",
+      "tags": [
+        "red-coat",
+        "bold",
+        "elegant",
+        "colour"
+      ]
+    },
+    {
+      "name": "Amber",
+      "tags": [
+        "warm-coat",
+        "golden",
+        "soft",
+        "gemstone"
+      ]
+    },
+    {
+      "name": "Jasper",
+      "tags": [
+        "warm-coat",
+        "dignified",
+        "stone"
+      ]
+    },
+    {
+      "name": "Wanda",
+      "tags": [
+        "red-coat",
+        "dramatic",
+        "clever",
+        "bold"
+      ],
+      "note": "Reference chosen by Avery after Wanda Maximoff."
+    },
+    {
+      "name": "Aries",
+      "tags": [
+        "bold",
+        "headstrong",
+        "energetic"
+      ],
+      "note": "Zodiac/mythology-flavoured name chosen by Avery."
+    },
+    {
+      "name": "Lola",
+      "tags": [
+        "sweet",
+        "confident",
+        "social"
+      ]
+    },
+    {
+      "name": "Tax Evasion",
+      "tags": [
+        "chaotic",
+        "mischievous",
+        "rare-comedy"
+      ],
+      "rarity": "rare"
+    },
+    {
+      "name": "Beatrix",
+      "tags": [
+        "clever",
+        "elegant",
+        "dignified"
+      ]
+    },
+    {
+      "name": "Freya",
+      "tags": [
+        "mythology",
+        "norse",
+        "elegant"
+      ]
+    },
+    {
+      "name": "Odin",
+      "tags": [
+        "mythology",
+        "norse",
+        "dignified"
+      ]
+    },
+    {
+      "name": "Thor",
+      "tags": [
+        "mythology",
+        "norse",
+        "bold"
+      ]
+    },
+    {
+      "name": "Tyr",
+      "tags": [
+        "mythology",
+        "norse",
+        "bold"
+      ]
+    },
+    {
+      "name": "Frigg",
+      "tags": [
+        "mythology",
+        "norse",
+        "dignified"
+      ]
+    },
+    {
+      "name": "Sif",
+      "tags": [
+        "mythology",
+        "norse",
+        "elegant"
+      ]
+    },
+    {
+      "name": "Skadi",
+      "tags": [
+        "mythology",
+        "norse",
+        "independent"
+      ]
+    },
+    {
+      "name": "Idun",
+      "tags": [
+        "mythology",
+        "norse",
+        "gentle"
+      ]
+    },
+    {
+      "name": "Balder",
+      "tags": [
+        "mythology",
+        "norse",
+        "bright"
+      ]
+    },
+    {
+      "name": "Fenrir",
+      "tags": [
+        "mythology",
+        "norse",
+        "chaotic",
+        "bold"
+      ]
+    },
+    {
+      "name": "Freyr",
+      "tags": [
+        "mythology",
+        "norse",
+        "gentle"
+      ]
+    },
+    {
+      "name": "Athena",
+      "tags": [
+        "mythology",
+        "greek",
+        "observant",
+        "clever"
+      ]
+    },
+    {
+      "name": "Artemis",
+      "tags": [
+        "mythology",
+        "greek",
+        "independent",
+        "wild"
+      ]
+    },
+    {
+      "name": "Apollo",
+      "tags": [
+        "mythology",
+        "greek",
+        "bright",
+        "confident"
+      ]
+    },
+    {
+      "name": "Hermes",
+      "tags": [
+        "mythology",
+        "greek",
+        "fast",
+        "clever"
+      ]
+    },
+    {
+      "name": "Ares",
+      "tags": [
+        "mythology",
+        "greek",
+        "bold",
+        "combative"
+      ]
+    },
+    {
+      "name": "Nyx",
+      "tags": [
+        "mythology",
+        "greek",
+        "dark-coat",
+        "quiet"
+      ]
+    },
+    {
+      "name": "Selene",
+      "tags": [
+        "mythology",
+        "greek",
+        "soft",
+        "pale"
+      ]
+    },
+    {
+      "name": "Iris",
+      "tags": [
+        "mythology",
+        "greek",
+        "bright"
+      ]
+    },
+    {
+      "name": "Hestia",
+      "tags": [
+        "mythology",
+        "greek",
+        "calm",
+        "gentle"
+      ]
+    },
+    {
+      "name": "Persephone",
+      "tags": [
+        "mythology",
+        "greek",
+        "elegant"
+      ]
+    },
+    {
+      "name": "Atlas",
+      "tags": [
+        "mythology",
+        "greek",
+        "strong",
+        "dignified"
+      ]
+    },
+    {
+      "name": "Orion",
+      "tags": [
+        "mythology",
+        "greek",
+        "bold"
+      ]
+    },
+    {
+      "name": "Circe",
+      "tags": [
+        "mythology",
+        "greek",
+        "clever",
+        "mischievous"
+      ]
+    }
+  ]
 }
