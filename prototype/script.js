@@ -66,11 +66,20 @@
   }
 
   function save() {
-    localStorage.setItem(SAVE_KEY, JSON.stringify(state));
+    try {
+      localStorage.setItem(SAVE_KEY, JSON.stringify(state));
+    } catch {
+      // Some mobile/in-app browsers can block localStorage.
+      // Gameplay should continue in memory even when saving is unavailable.
+    }
   }
 
   function reset() {
-    localStorage.removeItem(SAVE_KEY);
+    try {
+      localStorage.removeItem(SAVE_KEY);
+    } catch {
+      // Continue with an in-memory reset if browser storage is unavailable.
+    }
     state = initialState();
     render();
   }
