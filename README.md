@@ -22,7 +22,14 @@ The player runs a growing fox rescue, takes in authored individual cases, provid
 
 Early design and prototyping.
 
-The first permanent resident is **FOX-001 — Loki**, who also serves as the tutorial fox.
+The current design roster includes:
+- **FOX-001 — Loki:** permanent sanctuary resident / tutorial fox
+- **FOX-002:** first rehabilitation and release case
+- **FOX-003:** demodectic mange / diagnosis-before-assumption case
+- **FOX-004:** sarcoptic mange / first referral case
+- **FOX-005:** entanglement / capacity-planning case
+
+A small playable vertical slice lives in `prototype/`. It is intentionally narrow and exists to test the opening loop before the full game is built.
 
 ## Visual assets
 
