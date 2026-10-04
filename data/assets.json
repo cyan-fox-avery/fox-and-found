@@ -1,0 +1,25 @@
+[
+  {
+    "id": "fox-001-loki",
+    "characterId": "FOX-001",
+    "file": "images/foxes/fox-001-loki.jpg",
+    "purpose": "Loki profile and tutorial resident photograph",
+    "title": "Fox (52066659299) (cropped).jpg",
+    "creator": "Kumweni",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Fox_(52066659299)_(cropped).jpg",
+    "originalSourcePage": "https://commons.wikimedia.org/wiki/File:Fox_(52066659299).jpg",
+    "originalFlickr": "https://www.flickr.com/photos/76338186@N03/52066659299/",
+    "license": {
+      "name": "CC BY 2.0",
+      "url": "https://creativecommons.org/licenses/by/2.0/"
+    },
+    "commonsCrop": {
+      "cropper": "Ellicrum",
+      "dimensions": "2541 x 3402",
+      "date": "2026-04-25"
+    },
+    "changes": "The Wikimedia Commons derivative is a crop of the original photograph. The local prototype copy in this starter package was extracted from Avery's screenshot of the Commons media viewer and resized/compressed by that screenshot workflow.",
+    "prototypeNote": "Before public release, replace this prototype-resolution file with the full-resolution Wikimedia Commons cropped derivative while keeping the same filename.",
+    "fictionNotice": "The photograph depicts a real fox. Loki and the rescue history presented in Fox & Found are fictional and are not claims about the photographed animal."
+  }
+]
