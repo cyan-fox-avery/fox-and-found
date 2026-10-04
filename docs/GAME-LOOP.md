@@ -2,149 +2,117 @@
 
 ## Core loop
 
-**Care for current foxes → assess capacity → open for intake → receive authored case → accept or refer → rehabilitation / partner updates → welfare outcome → reputation → funding → upgrades → greater capability → repeat**
+**Review current foxes → make weekly care decisions → assess capacity → open for intake → receive authored case → accept or refer → rehabilitation / partner updates → welfare outcome → reputation → funding → upgrades → greater capability → repeat**
 
-## 1. Care for current foxes
+## Time scale
 
-Each fox has an individual care plan based on their case.
+One turn represents **one in-game week**.
 
-The game should avoid generic pet-style hunger / happiness bars as the main form of care.
+Routine daily care happens in the background as long as Fox & Found has the required supplies, facilities, and capacity. The player makes meaningful weekly decisions rather than clicking through repetitive daily chores.
 
-Possible care actions include:
-- Provide appropriate food
-- Refresh or change enrichment
-- Monitor behaviour
-- Follow an established treatment or rehabilitation plan
-- Inspect enclosure security
-- Review camera footage
-- Move a fox to a later rehabilitation stage
+The game should show passage of time through:
+- Week number
+- Calendar dates
+- Season
+- Intake and outcome dates in fox records
+
+Campaign duration emerges from case content and rehabilitation timelines.
+
+## Weekly structure
+
+### Beginning-of-week briefing
+Possible updates:
+- Harley's notes
+- New fox observations
+- Rehabilitation milestones
+- Partner-facility updates
+- Supply warnings
+- Funding/grant notices
+- Seasonal changes
+- Intake calls if Fox & Found is open
+
+### Fox rounds
+Each active fox has an individual care plan. Player decisions may include:
+- Choose/change enrichment
+- Review camera observations
+- Adjust feeding method
+- Request reassessment
+- Move a fox to an appropriate rehabilitation stage
 - Prepare for release assessment
+- Leave the fox undisturbed when that is the best choice
 
-Not every fox needs every action every day.
+Not every fox needs a decision every week.
 
-## 2. Assess sanctuary capacity
+Possible status labels:
+- Needs attention
+- Routine care only
+- Ready for assessment
+- Awaiting facility
+- Release ready
 
-Before opening intake, the player can review:
-- Available quarantine space
-- Available rehabilitation space
-- Current fox workload
-- Essential supplies
-- Operating funds
-- Relevant specialist capabilities
+## Rehabilitation philosophy
 
-The game should distinguish between "technically has an empty enclosure" and "can responsibly care for another animal."
+Avoid generic pet-style hunger/happiness bars as the primary rehabilitation mechanic.
 
-## 3. Open for intake
+Progress is represented through case-specific milestones.
 
-The player deliberately marks Fox & Found as ready to receive another case.
+Examples:
+- Adult injury: Stabilized → normal weight-bearing → full use of limb → outdoor conditioning → natural foraging/hunting confirmed → release assessment
+- Orphaned kit: Stable → self-feeding → appropriate social development → minimal human habituation → independent foraging → release assessment
 
-The game should not force a new fox into the sanctuary simply because space exists.
+Underlying numerical values may exist in code, but player-facing progress should use meaningful language.
 
-## 4. Receive an authored case
+Less-than-ideal choices should teach rather than punish. Ordinary mistakes should not cause severe harm.
 
-A partner rescue or wildlife-response organization contacts Fox & Found with the information currently known.
+## Rescue management
 
-The player may not know the fox's full diagnosis or rehabilitation needs yet.
+The player may:
+- Restock supplies
+- Review funds
+- Purchase upgrades
+- Inspect capacity
+- Review facilities
+- Decide whether Fox & Found should remain open for intake
+
+## Intake
+
+The player deliberately marks Fox & Found as ready for another case.
 
 The player chooses:
 - **Accept case**
 - **Refer to partner facility**
 
-Both can be responsible decisions.
+If accepted, the fox arrives under its rescue ID and the player manages assessment, naming, rehabilitation, and outcome.
 
-## 5A. If accepted
+If referred, the fox remains part of the rescue network's history and can generate authored partner updates.
 
-The fox arrives under its rescue ID.
+## Advance to next week
 
-The player:
-- Completes intake assessment
-- Learns additional information as the case develops
-- Names the fox or lets Harley choose a suitable unused name
-- Provides appropriate care
-- Uses or upgrades facilities as required
-- Progresses toward the best welfare outcome
+At week transition:
+- Routine care consumes supplies
+- Rehabilitation progresses
+- Authored events may resolve
+- New observations may appear
+- Partner cases may progress
+- Calendar and season advance
 
-## 5B. If referred
+No real-world waiting is used.
 
-The fox is transferred to a trusted partner facility.
+## Case ordering
 
-The fox remains part of the rescue network's history.
-
-The player may later receive authored updates about:
-- Diagnosis
-- Treatment
-- Behaviour
-- Rehabilitation progress
-- Transfer
-- Sanctuary placement
-- Release
-- Rare end-of-life outcomes
-
-Responsible referral should not stall progression or be treated as a lesser moral choice.
-
-## 6. Outcome
-
-Possible outcomes include:
-- Release
-- Permanent sanctuary
-- Specialist transfer
-- Continued care elsewhere
-- Rare humane end-of-life outcome at a sister facility
-
-The game should reward appropriate welfare decisions rather than maximizing release count.
-
-## 7. Reputation and funding
-
-Good professional decisions improve Fox & Found's standing within the rescue network and community.
-
-Reputation should come primarily from:
-- Appropriate case acceptance
-- Appropriate referral
-- Consistent care
-- Successful welfare outcomes
-- Responsible capacity management
-
-Reputation should not reward taking the maximum possible number of foxes.
-
-Higher reputation supports stronger funding and access to improvements.
-
-## 8. Upgrade the rescue
-
-Funding can be spent on improvements that unlock practical capability, such as:
-- Better quarantine
-- Larger outdoor rehabilitation runs
-- Dig-proof fencing
-- Secure enclosures
-- Insulated dens and shelters
-- Medical treatment space
-- Food preparation and storage
-- Refrigeration / freezers
-- Monitoring equipment
-- Transport equipment
-- Storage
-- Additional rehabilitation spaces
-- Specialized facilities
-
-Upgrades should matter because they change what kinds of cases Fox & Found can responsibly handle.
-
-## Time
-
-Current design direction:
-- Time advances in game days.
-- No real-world waiting.
-- The player completes meaningful actions and chooses when to end the day.
-- Rehabilitation progress and partner updates unfold over in-game time.
-
-Exact timing and daily-action structure are still to be designed.
+The campaign uses a curated shuffle:
+- Loki is fixed as FOX-001.
+- The first intake case is intended to be fixed.
+- Most later cases come from authored progression pools.
+- Season, capability, occupancy, and recent case types may influence selection.
+- The system should avoid repetitive case sequences and poor pacing.
+- Some beyond-capability cases should appear so referral remains meaningful.
 
 ## Fail state
 
-If Fox & Found can no longer guarantee safe care because it has exhausted money or essential supplies:
+If Fox & Found can no longer guarantee safe care:
 - Intake closes.
-- The partner network transfers current foxes to safe facilities.
-- The player's animals do not suffer as punishment for the failure.
-- The rescue enters a recovery state.
-- Progress may be slowed through reduced trust, reduced funding, or temporary closure.
-- The player must stabilize operations before reopening intake.
-
-The fail state should be recoverable rather than an irreversible dead save.
+- Active rehabilitation foxes are transferred safely before welfare is compromised.
+- Loki is never transferred; Harley personally ensures his care.
+- Transferred foxes continue receiving authored partner updates.
+- Fox & Found enters a recoverable rebuilding state.

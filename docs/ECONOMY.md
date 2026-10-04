@@ -2,175 +2,131 @@
 
 ## Status
 
-The economy structure is in design. Exact numbers are **not yet locked**.
+Exact numbers are **prototype values only** and are not yet locked.
 
 ## Core balancing rule
 
 > Normal responsible operation should be financially sustainable. Growth should require planning.
 
-The player should not routinely have to choose between basic animal welfare and progression.
-
 Money should create meaningful planning pressure without turning Fox & Found into punishing financial micromanagement.
 
-## Spendable currency
+## Currency
 
-The game should use one main spendable currency:
+One main spendable currency: **Funds**
 
-**Funds**
+Funds pay for supply restocking, facility upgrades, equipment, and capacity expansion.
 
-Funds pay for:
-- Supply restocking
-- Facility upgrades
-- Equipment
-- Capacity expansion
-- Other operating improvements
+## Operating support
 
-## Current funding model
+Current prototype direction:
+- Operating support is based on professional standing.
+- Because one turn equals one week, the support cycle should occur approximately every **4 in-game weeks**.
+- Use an **operating-fund floor** rather than an endlessly stackable flat payment.
 
-### 1. Regular operating funding
+Example:
+- Funding floor: $700
+- Current funds: $280 → support adds $420
+- Current funds: $900 → support adds nothing
 
-Fox & Found receives predictable operating support.
+This prevents the optimal strategy from becoming "close intake and advance time forever to get rich."
 
-The amount should increase as the rescue develops a stronger professional reputation.
+## Professional standing
 
-This is the backbone of the economy and should normally cover responsible care at the rescue's intended current capacity.
-
-### 2. Milestone grants
-
-One-time grants can help fund major capability upgrades.
-
-Possible triggers:
-- Demonstrated successful welfare outcomes
-- Reaching a new reputation tier
-- Demonstrated need for expanded quarantine
-- Regional partnership milestones
-- Accreditation progress
-
-Grants should help make large upgrades achievable without requiring repetitive grinding.
-
-### 3. Community donations
-
-Occasional community donations may provide smaller bonuses.
-
-These should not become the main economy, and the game should avoid creating an incentive to seek dramatic or photogenic cases for money.
-
-## Reputation
-
-Reputation should represent professional trust rather than popularity.
-
-Current possible tier structure:
-1. Emerging Rescue
+Possible prototype tiers:
+1. New Rescue
 2. Trusted Local Rescue
 3. Established Wildlife Partner
 4. Regional Rehabilitation Centre
 5. Accredited Fox Rescue
 
-Names and number of tiers remain provisional.
-
-Reputation may affect:
-- Baseline operating funding
+Standing may affect:
+- Baseline operating support
 - Grant eligibility
 - Available upgrades
-- Partner-network trust
+- Partner trust
 - Access to more complex cases
-- Progress toward the game's ending
+- Progress toward the ending
 
-## How reputation is earned
+Reputation should reward appropriate acceptance, referral, safe capacity management, consistent care, and good welfare outcomes. Taking every possible case should not be optimal.
 
-Reputation should reward good welfare decisions, including:
-- Appropriate case acceptance
-- Appropriate referral
-- Safe capacity management
-- Consistent care
-- Successful release
-- Appropriate sanctuary placement
-- Appropriate specialist transfer
+## Milestone grants
 
-Referring a fox because Fox & Found is not equipped for the case should not financially punish the player.
+One-time grants can fund major capability upgrades.
+
+Possible triggers:
+- Successful welfare outcomes
+- Reaching a new standing tier
+- Demonstrated need for expanded quarantine
+- Regional partnership milestones
+- Accreditation progress
+
+Grant money may accumulate above the normal operating-fund floor.
+
+## Community donations
+
+Occasional smaller bonuses may occur, but they are secondary to operating support and grants and should not incentivize dramatic or photogenic cases.
 
 ## Supplies
 
-The game should use broad supply categories rather than charging the player for every individual feeding or treatment action.
+Use broad supply categories rather than per-action expenses.
 
-Possible categories:
+Current possibilities:
 - Food
 - Medical / rehabilitation supplies
-- Cleaning supplies
+- Cleaning / sanitation supplies
 - Enrichment materials
 
-Exact categories are still open.
+Routine daily care consumes supplies automatically when the week advances.
 
-Possible presentation:
-- Quantity
-- Percentage remaining
+Useful player-facing information:
+- Current stock
+- Approximate weeks remaining at current occupancy
+- Restock amount
 - Restock cost
-
-The player buys restocks in sensible batches.
 
 ## Financial pressure
 
-The player should have enough support to operate responsibly at their current intended capacity.
-
-Financial decisions should focus more on:
+Financial decisions should focus on:
 - When to expand
 - Which upgrade to prioritize
 - Whether enough reserve remains after a purchase
 - Whether the rescue can responsibly open intake
 
-The game should avoid routine situations such as:
-- "Feed fox or buy fencing"
+Avoid:
+- "feed fox or buy fencing" choices
 - Tiny per-action expenses
 - Punishing debt spirals
 - Grinding trivial tasks for cash
 
-## Reserve / safety margin
+## Emergency restock and closure
 
-The economy should encourage keeping a modest reserve.
+If an essential supply becomes critical and Fox & Found can afford it, an emergency restock may occur at a higher-than-normal price.
 
-Unexpected costs may exist, but they should create an interesting inconvenience rather than destroy a save.
-
-The game should provide clear warnings as financial health declines.
-
-Possible status progression:
-- Stable
-- Low
-- Critical
-- Emergency transfer
-
-Exact thresholds are not yet designed.
-
-## Emergency closure
-
-If Fox & Found reaches a point where it cannot guarantee essential care:
+If the rescue cannot afford essential care:
 - Intake automatically closes.
-- Current foxes are moved safely to partner facilities.
-- Their welfare is protected.
-- Their stories continue through partner updates.
-- Fox & Found takes a meaningful organizational setback.
-- The player receives a path to recover rather than becoming permanently trapped at zero funds.
+- Active rehabilitation foxes are transferred safely before welfare is compromised.
+- Loki is not transferred; Harley ensures his continued care.
+- Fox & Found takes a meaningful but recoverable setback.
 
-Possible recovery consequences:
-- Reduced reputation
-- Reduced funding
-- Temporary closure
-- Nonessential areas mothballed
-- Stabilization assistance or grant
+## Tutorial funding
 
-Exact consequences are not yet locked.
+The starting rescue is nearly intake-ready but the basic rehab run needs **dig-proof perimeter reinforcement**.
+
+The player receives startup funding specifically for this required upgrade. The tutorial should not allow that money to be spent in a way that creates a softlock.
 
 ## Balance testing
 
-Before finalizing numbers, the economy should be simulated and tested for:
-- Expected income over time
-- Supply consumption at different capacities
-- Time required to afford each major upgrade
-- Typical reserve levels
-- Effects of several referrals in a row
-- Effects of aggressive expansion
-- Effects of cautious play
-- Whether any case sequence can create an unrecoverable death spiral
-- Whether upgrades become available too quickly
-- Whether routine care ever becomes needlessly stressful
+Before locking numbers, test:
+- Income over time
+- Supply consumption by occupancy
+- Case duration in weeks
+- Time to afford upgrades
+- Typical reserves
+- Effects of multiple referrals
+- Aggressive vs cautious expansion
+- Whether any sequence creates an unrecoverable death spiral
+- Whether upgrades arrive too quickly
+- Whether routine care becomes needlessly stressful
 
 Target feeling:
 
