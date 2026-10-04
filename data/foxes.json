@@ -7,6 +7,9 @@
     "permanentResident": true,
     "playerCanRename": false,
     "releaseStatus": "non-releasable",
+    "transferable": false,
+    "harleyHistory": "Harley has cared for Loki since he was a kit.",
+    "emergencyClosureCare": "Harley personally ensures Loki's continued care.",
     "reasonForPermanentCare": {
       "value": "human habituation",
       "status": "provisional"
