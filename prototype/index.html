@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Fox & Found — Opening Prototype</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div>
+    <p class="eyebrow">OPENING LOOP PROTOTYPE</p>
+    <h1>Fox &amp; Found</h1>
+    <p class="subtitle">Fox Rescue &amp; Rehabilitation</p>
+  </div>
+  <button id="resetBtn" class="text-button" type="button">Reset prototype</button>
+</header>
+
+<main class="shell">
+  <section class="status-strip">
+    <div><span>TIME</span><strong id="weekLabel">Week 1 · Spring</strong></div>
+    <div><span>FUNDS</span><strong id="fundsLabel">$600</strong></div>
+    <div><span>STANDING</span><strong>New Rescue</strong></div>
+    <div><span>INTAKE</span><strong id="intakeLabel">Closed</strong></div>
+  </section>
+
+  <section class="layout">
+    <div class="main-column">
+      <section class="card briefing-card">
+        <p class="eyebrow">HARLEY · MORNING BRIEFING</p>
+        <div id="briefing"></div>
+        <div id="primaryActions" class="actions"></div>
+      </section>
+      <section id="casePanel" class="card hidden" aria-live="polite"></section>
+      <section id="rehabPanel" class="card hidden" aria-live="polite"></section>
+    </div>
+
+    <aside class="side-column">
+      <section class="card resident-card">
+        <div class="resident-image-wrap">
+          <img src="../images/foxes/fox-001-loki.jpg" alt="Real photograph representing fictional resident Loki">
+        </div>
+        <div class="card-body">
+          <p class="eyebrow">PERMANENT RESIDENT</p>
+          <h2>FOX-001 · Loki</h2>
+          <p>Red fox · permanent sanctuary</p>
+          <div class="pill good">Routine care only</div>
+          <p class="small">Harley has cared for Loki since he was a kit. He does not use a rehabilitation slot.</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-body">
+          <p class="eyebrow">FACILITIES</p>
+          <div id="facilities"></div>
+        </div>
+      </section>
+    </aside>
+  </section>
+</main>
+
+<footer>Prototype only · real fox photography, fictional rescue histories</footer>
+<script src="script.js"></script>
+</body>
+</html>
