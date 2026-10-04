@@ -3,63 +3,79 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Fox & Found — Opening Prototype</title>
+  <title>Fox & Found — Opening Prototype v2</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="topbar">
-  <div>
-    <p class="eyebrow">OPENING LOOP PROTOTYPE</p>
+
+<section id="welcomeScreen" class="welcome-screen">
+  <div class="welcome-card">
+    <p class="eyebrow">OPENING LOOP PROTOTYPE · V2</p>
     <h1>Fox &amp; Found</h1>
-    <p class="subtitle">Fox Rescue &amp; Rehabilitation</p>
-  </div>
-  <button id="resetBtn" class="text-button" type="button">Reset prototype</button>
-</header>
+    <p class="welcome-lead">You and Harley run a small fox rescue and rehabilitation centre. Care for wildlife, decide which cases your facilities can safely handle, grow the rescue, and help every fox reach the best possible outcome.</p>
 
-<main class="shell">
-  <section class="status-strip">
-    <div><span>TIME</span><strong id="weekLabel">Week 1 · Spring</strong></div>
-    <div><span>FUNDS</span><strong id="fundsLabel">$600</strong></div>
-    <div><span>STANDING</span><strong>New Rescue</strong></div>
-    <div><span>INTAKE</span><strong id="intakeLabel">Closed</strong></div>
-  </section>
-
-  <section class="layout">
-    <div class="main-column">
-      <section class="card briefing-card">
-        <p class="eyebrow">HARLEY · MORNING BRIEFING</p>
-        <div id="briefing"></div>
-        <div id="primaryActions" class="actions"></div>
-      </section>
-      <section id="casePanel" class="card hidden" aria-live="polite"></section>
-      <section id="rehabPanel" class="card hidden" aria-live="polite"></section>
+    <div class="welcome-tabs">
+      <article><strong>Overview</strong><span>See what needs your attention this week.</span></article>
+      <article><strong>Foxes</strong><span>Review residents, active cases, care plans, and milestones.</span></article>
+      <article><strong>Intake</strong><span>Open or close intake and respond to new cases.</span></article>
+      <article><strong>Facilities</strong><span>Manage capacity, supplies, equipment, and upgrades.</span></article>
+      <article><strong>Records</strong><span>Follow every fox you have helped, including referrals and transfers.</span></article>
     </div>
 
-    <aside class="side-column">
-      <section class="card resident-card">
-        <div class="resident-image-wrap">
-          <img src="../images/foxes/fox-001-loki.jpg" alt="Real photograph representing fictional resident Loki">
-        </div>
-        <div class="card-body">
-          <p class="eyebrow">PERMANENT RESIDENT</p>
-          <h2>FOX-001 · Loki</h2>
-          <p>Red fox · permanent sanctuary</p>
-          <div class="pill good">Routine care only</div>
-          <p class="small">Harley has cared for Loki since he was a kit. He does not use a rehabilitation slot.</p>
-        </div>
-      </section>
+    <p class="small welcome-note">Routine daily care happens in the background. You make the decisions that matter.</p>
+    <button id="beginBtn" class="primary big-button" type="button">Begin Week 1</button>
+  </div>
+</section>
 
-      <section class="card">
-        <div class="card-body">
-          <p class="eyebrow">FACILITIES</p>
-          <div id="facilities"></div>
-        </div>
-      </section>
-    </aside>
-  </section>
-</main>
+<div id="gameShell" class="hidden">
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">OPENING LOOP PROTOTYPE · V2</p>
+      <h1>Fox &amp; Found</h1>
+      <p class="subtitle">Fox Rescue &amp; Rehabilitation</p>
+    </div>
+    <button id="resetBtn" class="text-button" type="button">Reset prototype</button>
+  </header>
 
-<footer>Prototype only · real fox photography, fictional rescue histories</footer>
+  <main class="shell">
+    <section class="status-strip" aria-label="Rescue status">
+      <div><span>TIME</span><strong id="weekLabel">Week 1 · Spring</strong></div>
+      <div><span>FUNDS</span><strong id="fundsLabel">$600</strong></div>
+      <div><span>STANDING</span><strong id="standingLabel">New Rescue</strong></div>
+      <div><span>INTAKE</span><strong id="intakeLabel">Closed</strong></div>
+    </section>
+
+    <nav class="tabs" aria-label="Fox & Found sections">
+      <button data-tab="overview" type="button">Overview</button>
+      <button data-tab="foxes" type="button">Foxes</button>
+      <button data-tab="intake" type="button">Intake</button>
+      <button data-tab="facilities" type="button">Facilities</button>
+      <button data-tab="records" type="button">Records</button>
+    </nav>
+
+    <section id="overviewTab" class="tab-panel"></section>
+    <section id="foxesTab" class="tab-panel hidden"></section>
+    <section id="intakeTab" class="tab-panel hidden"></section>
+    <section id="facilitiesTab" class="tab-panel hidden"></section>
+    <section id="recordsTab" class="tab-panel hidden"></section>
+  </main>
+
+  <footer>Prototype only · real fox photography, fictional rescue histories</footer>
+</div>
+
+<div id="transferModal" class="modal-backdrop hidden" role="dialog" aria-modal="true" aria-labelledby="transferTitle">
+  <div class="modal-card">
+    <p class="eyebrow">CASE ACTION</p>
+    <h2 id="transferTitle">Transfer FOX-002?</h2>
+    <p>A qualified partner can continue this fox's rehabilitation. A responsible voluntary transfer will <strong>not</strong> reduce Professional Standing.</p>
+    <p class="small">The fox will remain in Records and you will continue receiving partner updates.</p>
+    <div class="actions">
+      <button id="confirmTransferBtn" class="primary" type="button">Transfer to partner care</button>
+      <button id="cancelTransferBtn" class="secondary" type="button">Keep case at Fox &amp; Found</button>
+    </div>
+  </div>
+</div>
+
 <script src="script.js"></script>
 </body>
 </html>
