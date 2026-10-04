@@ -1,0 +1,12 @@
+{
+  "status": "not yet populated",
+  "targetPoolSize": 100,
+  "rules": {
+    "playerNamesTakePriority": true,
+    "harleyAvoidsUsedNames": true,
+    "caseInsensitiveDuplicateCheck": true,
+    "trimWhitespaceBeforeDuplicateCheck": true,
+    "selectionShouldConsiderFoxTraits": true
+  },
+  "names": []
+}

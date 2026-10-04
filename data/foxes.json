@@ -1,0 +1,25 @@
+[
+  {
+    "id": "FOX-001",
+    "name": "Loki",
+    "species": "Vulpes vulpes",
+    "tutorial": true,
+    "permanentResident": true,
+    "playerCanRename": false,
+    "releaseStatus": "non-releasable",
+    "reasonForPermanentCare": {
+      "value": "human habituation",
+      "status": "provisional"
+    },
+    "personality": {
+      "traits": [
+        "clever",
+        "mischievous",
+        "chaotic"
+      ],
+      "status": "provisional beyond core Loki concept"
+    },
+    "image": "images/foxes/fox-001-loki.jpg",
+    "notes": "Tutorial fox and permanent first resident of Fox & Found. Already named by Harley before the player begins."
+  }
+]
