@@ -28,61 +28,32 @@ Example:
 - Current funds: $280 → support adds $420
 - Current funds: $900 → support adds nothing
 
-This prevents the optimal strategy from becoming "close intake and advance time forever to get rich."
+This prevents the optimal strategy from becoming “close intake and advance time forever to get rich.”
 
-## Professional standing
+## First upgrade set
 
-Possible prototype tiers:
-1. New Rescue
-2. Trusted Local Rescue
-3. Established Wildlife Partner
-4. Regional Rehabilitation Centre
-5. Accredited Fox Rescue
+Prototype costs:
 
-Standing may affect:
-- Baseline operating support
-- Grant eligibility
-- Available upgrades
-- Partner trust
-- Access to more complex cases
-- Progress toward the ending
+| Upgrade | Cost | Primary effect |
+| --- | ---: | --- |
+| Improved Food Storage | $450 | Larger and safer food reserve |
+| Improved Office & Records | $600 | Unlocks grant opportunities and administrative progression |
+| Second Rehabilitation Enclosure | $900 | Adds one general rehabilitation slot |
+| Infectious-Disease Isolation | $1,100 | Allows safe admission of contagious cases |
 
-Reputation should reward appropriate acceptance, referral, safe capacity management, consistent care, and good welfare outcomes. Taking every possible case should not be optimal.
+These are horizontal choices. The player should not be able to buy all four immediately.
 
-## Milestone grants
-
-One-time grants can fund major capability upgrades.
-
-Possible triggers:
-- Successful welfare outcomes
-- Reaching a new standing tier
-- Demonstrated need for expanded quarantine
-- Regional partnership milestones
-- Accreditation progress
-
-Grant money may accumulate above the normal operating-fund floor.
-
-## Community donations
-
-Occasional smaller bonuses may occur, but they are secondary to operating support and grants and should not incentivize dramatic or photogenic cases.
+After FOX-004 demonstrates the need for infectious isolation, a **prototype $500 preparedness grant** may become available. This trigger and amount remain provisional.
 
 ## Supplies
 
-Use broad supply categories rather than per-action expenses.
-
-Current possibilities:
+Use broad supply categories rather than per-action expenses:
 - Food
 - Medical / rehabilitation supplies
 - Cleaning / sanitation supplies
 - Enrichment materials
 
 Routine daily care consumes supplies automatically when the week advances.
-
-Useful player-facing information:
-- Current stock
-- Approximate weeks remaining at current occupancy
-- Restock amount
-- Restock cost
 
 ## Financial pressure
 
@@ -93,20 +64,10 @@ Financial decisions should focus on:
 - Whether the rescue can responsibly open intake
 
 Avoid:
-- "feed fox or buy fencing" choices
+- “feed fox or buy fencing” choices
 - Tiny per-action expenses
 - Punishing debt spirals
 - Grinding trivial tasks for cash
-
-## Emergency restock and closure
-
-If an essential supply becomes critical and Fox & Found can afford it, an emergency restock may occur at a higher-than-normal price.
-
-If the rescue cannot afford essential care:
-- Intake automatically closes.
-- Active rehabilitation foxes are transferred safely before welfare is compromised.
-- Loki is not transferred; Harley ensures his continued care.
-- Fox & Found takes a meaningful but recoverable setback.
 
 ## Tutorial funding
 

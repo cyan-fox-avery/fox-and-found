@@ -2,7 +2,7 @@
 
 ## Core loop
 
-**Review current foxes → make weekly care decisions → assess capacity → open for intake → receive authored case → accept or refer → rehabilitation / partner updates → welfare outcome → reputation → funding → upgrades → greater capability → repeat**
+**Review current foxes → make weekly care decisions → assess capacity → open for intake → receive authored case → accept or refer → rehabilitation / partner updates → welfare outcome → professional standing → funding → upgrades → greater capability → repeat**
 
 ## Time scale
 
@@ -43,36 +43,23 @@ Each active fox has an individual care plan. Player decisions may include:
 
 Not every fox needs a decision every week.
 
-Possible status labels:
-- Needs attention
-- Routine care only
-- Ready for assessment
-- Awaiting facility
-- Release ready
-
 ## Rehabilitation philosophy
 
 Avoid generic pet-style hunger/happiness bars as the primary rehabilitation mechanic.
 
-Progress is represented through case-specific milestones.
+Progress is represented through case-specific milestones and meaningful language.
 
-Examples:
-- Adult injury: Stabilized → normal weight-bearing → full use of limb → outdoor conditioning → natural foraging/hunting confirmed → release assessment
-- Orphaned kit: Stable → self-feeding → appropriate social development → minimal human habituation → independent foraging → release assessment
+## Capacity is case flow
 
-Underlying numerical values may exist in code, but player-facing progress should use meaningful language.
+Capacity is not only the number of currently empty rooms.
 
-Less-than-ideal choices should teach rather than punish. Ordinary mistakes should not cause severe harm.
+When considering an intake, the player should consider:
+- Where the fox can be assessed now
+- Where the fox will go after intake/quarantine
+- Whether an appropriate rehabilitation enclosure will become free in time
+- Whether the rescue has the supplies and capabilities to support the whole expected stay
 
-## Rescue management
-
-The player may:
-- Restock supplies
-- Review funds
-- Purchase upgrades
-- Inspect capacity
-- Review facilities
-- Decide whether Fox & Found should remain open for intake
+FOX-005 is the first case designed specifically to teach this.
 
 ## Intake
 
@@ -81,8 +68,6 @@ The player deliberately marks Fox & Found as ready for another case.
 The player chooses:
 - **Accept case**
 - **Refer to partner facility**
-
-If accepted, the fox arrives under its rescue ID and the player manages assessment, naming, rehabilitation, and outcome.
 
 If referred, the fox remains part of the rescue network's history and can generate authored partner updates.
 
@@ -102,10 +87,9 @@ No real-world waiting is used.
 
 The campaign uses a curated shuffle:
 - Loki is fixed as FOX-001.
-- The first intake case is intended to be fixed.
+- FOX-002 is the fixed first intake case.
 - Most later cases come from authored progression pools.
 - Season, capability, occupancy, and recent case types may influence selection.
-- The system should avoid repetitive case sequences and poor pacing.
 - Some beyond-capability cases should appear so referral remains meaningful.
 
 ## Fail state

@@ -29,7 +29,7 @@ Each fox has a stable rescue ID, authored intake story, rehabilitation needs, pe
 Case order is **partially randomized**.
 
 - FOX-001 Loki is always fixed.
-- FOX-002 is intended to be the fixed first intake/tutorial case.
+- FOX-002 is the fixed first intake/tutorial rehabilitation case.
 - Most later foxes come from curated authored pools.
 - Pools may be gated by progression stage and season.
 - Some milestone/story cases may appear at fixed progression points.
@@ -91,25 +91,71 @@ The player receives startup funding to purchase:
 
 Once purchased, the rescue can open for its first uncomplicated intake.
 
-## Starting capabilities
+## First upgrade set
 
-Available:
-- basic intake
-- basic quarantine
-- basic rehabilitation
-- low-contact care
-- camera observation
+After the tutorial, the first real choices are:
 
-Not yet available:
-- advanced medical care
-- contagious-disease isolation
-- orphaned-kit care
-- multiple simultaneous rehab runs
-- specialist long-term sanctuary housing
-- advanced transport
-- intensive monitoring
+- **Improved Food Storage** — larger, safer food reserve.
+- **Improved Office & Records** — grants and later administrative progression.
+- **Second Rehabilitation Enclosure** — another general rehab slot.
+- **Infectious-Disease Isolation** — safe admission of contagious cases such as sarcoptic mange.
 
-These tags are provisional and should be refined as cases and upgrades are authored.
+These are horizontal choices rather than a strict linear chain.
+
+## Early case progression
+
+### FOX-002 — first rehabilitation and release
+
+Young adult female red fox sideswiped by a vehicle. Responders initially suspect a hind-leg fracture, but assessment shows a significant soft-tissue injury with no fracture.
+
+She is very releasable and absolutely hates the staff. Her strong avoidance of humans is a positive rehabilitation sign.
+
+Design purpose:
+- Teach intake and assessment.
+- Teach weekly rehabilitation milestones.
+- Teach camera observation.
+- Teach that good wildlife rehabilitation does not mean making the animal like people.
+- Introduce player naming.
+- Deliver the first release.
+
+### FOX-003 — diagnosis before assumption
+
+Older male red fox with an unusually dark auburn coat and a permanently wonky/notched ear. He arrives with patchy hair loss and irritated skin. The final diagnosis is localized demodectic mange / demodicosis rather than a highly contagious sarcoptic case.
+
+He is somewhat underweight and run-down but stable, with a good release prognosis.
+
+Design purpose:
+- Teach that visually similar conditions can have different implications.
+- Teach that “mange” is not a complete diagnosis by itself.
+- Introduce a longer, more medical-feeling but still manageable rehabilitation.
+- Use coat and body-condition recovery as visible progress.
+
+### FOX-004 — first responsible referral
+
+Subadult female red fox with extensive hair loss, crusting skin, and persistent scratching. The case is strongly suspected or confirmed to be sarcoptic mange.
+
+Fox & Found does not yet have appropriate infectious-disease isolation, so the correct early-game action is to refer her to a qualified partner facility.
+
+Her authored partner updates continue through treatment, outdoor rehabilitation, and eventual release.
+
+Design purpose:
+- Teach that referral is a successful welfare decision.
+- Demonstrate why infectious-disease isolation is a real capability rather than a generic upgrade.
+- Create a meaningful reason to build an isolation unit later.
+
+### FOX-005 — capacity planning
+
+Subadult male red fox found entangled in discarded garden/netting material. He has superficial abrasions, mild dehydration, and high stress but no major injury.
+
+He needs a relatively short rehabilitation period before release.
+
+His call is designed to arrive while another fox may still occupy the only general rehab run, teaching that an empty intake room is not the same thing as having capacity for an entire case.
+
+Design purpose:
+- Teach case-flow planning.
+- Make the second rehabilitation enclosure meaningful.
+- Introduce a short case.
+- Add a light educational note about wildlife entanglement hazards.
 
 ## Intake system
 
@@ -119,7 +165,7 @@ A partner organization contacts Fox & Found with a specific authored case. The p
 - **Accept case**
 - **Refer to partner facility**
 
-Referral is not failure. Because every fox is authored, referred cases can continue through partner-facility updates and still reach satisfying outcomes.
+Referral is not failure. Referred cases continue through partner-facility updates and can still reach satisfying outcomes.
 
 ## Outcomes
 
@@ -130,18 +176,6 @@ Possible successful outcomes include:
 - Other welfare-appropriate long-term placement
 
 Success is not measured only by releases.
-
-## Death and difficult outcomes
-
-Across roughly 50 authored foxes:
-- At most 1–2 foxes may die.
-- No kit deaths.
-- Death does not occur in the player's care.
-- The player is never asked to authorize euthanasia.
-- Any death occurs at a trusted sister facility and is communicated through partner updates.
-- The player is explicitly told they could not have changed the outcome.
-- Harley reassures the player that their decision was made with kind intentions and in the animal's best interest.
-- Humane euthanasia is framed as a compassionate decision that prevented suffering.
 
 ## Failure philosophy
 
