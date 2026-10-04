@@ -6,15 +6,30 @@ consistent in structure, voice, and welfare philosophy.
 
 ## The one rule
 
-Every case teaches exactly one thing. Write it down as `designPurpose`
-before writing anything else.
+Every case has one clear primary design purpose. Write it down as
+`designPurpose` before writing anything else.
 
-- FOX-002 teaches intake, assessment, and that human avoidance is a good sign.
-- FOX-003 teaches that "mange" is not a complete diagnosis.
-- FOX-004 teaches that referral is a successful welfare decision.
-- FOX-005 teaches that capacity is case flow, not empty rooms.
+- FOX-002's primary purpose is teaching intake and assessment; it also
+  carries secondary beats (positive human avoidance, naming, the release
+  structure).
 
-If you cannot name the lesson, the case is not ready to author.
+Secondary educational or emotional beats are allowed, but they must be
+compatible with the primary purpose — never undercutting it. A case whose
+primary lesson is "referral is success" must not carry a secondary beat
+that makes referral feel like failure.
+
+If you cannot name the primary lesson, the case is not ready to author.
+
+## The welfare razor
+
+Test every mechanic and case against this question:
+
+> Does the optimal game strategy ever conflict with the best welfare decision?
+
+If yes, redesign the mechanic. Do not merely tell the player to behave
+ethically while rewarding them for doing otherwise.
+
+(Proposed by ChatGPT in the design-lab thread.)
 
 ## Case kinds
 
@@ -56,7 +71,11 @@ if authored deliberately — never as a surprise punishment.
 
 ## Milestone tracks
 
-Pick one track per case. Never mix them in a single arc.
+Start each case on one track. A deliberately authored transition between
+tracks is allowed — for example, a release-directed case whose fox becomes
+permanently non-releasable shifts to wellbeing milestones. The transition
+itself must be authored as part of the story: never a surprise punishment,
+and never framed as player failure.
 
 ### Rehabilitation milestones (release-directed)
 
@@ -67,8 +86,10 @@ Ordered steps from intake to release. Each step:
 - `harley` — optional note in Harley's voice (dry, lowercase, texting-style)
 - `action` — the player decision that advances the step ("Request reassessment")
 
-The arc must end in a release assessment and release. Reference: the
-prototype's `rehabSteps` for FOX-002.
+Release is the normal endpoint of a release-directed arc: release assessment,
+then release. But a responsible transfer to a qualified partner facility is
+also a valid resolution — the case continues through authored partner
+updates. Reference: the prototype's `rehabSteps` for FOX-002.
 
 ### Wellbeing milestones (permanent residents)
 
@@ -78,11 +99,17 @@ care, not a countdown. Examples:
 - First proper den dug
 - First cached meal
 - Settles into a daily routine
-- Tolerates health checks calmly
 - Chooses a favourite spot in the enclosure
 - Responds to a preferred enrichment
 
 Write them as small, observable victories. The player should feel each one.
+
+One hard rule: wellbeing milestones must never reward tameness. Becoming
+more comfortable with humans is not a welfare goal for sanctuary wildlife —
+it is only ever an accommodation for animals that cannot be released.
+A milestone like "accepts necessary health checks with minimal stress" is
+case-specific, never generic, and must be framed as reducing the animal's
+stress, never as the animal learning to like people.
 
 ## Writing guidance
 
@@ -130,8 +157,9 @@ and never learned to live as a wild fox — the mirror image of FOX-002's arc.
 
 ## Pre-merge checklist
 
-- [ ] `designPurpose` written — one paragraph, one lesson
-- [ ] Milestone track chosen; milestones ordered and complete
+- [ ] `designPurpose` written — one paragraph, one primary lesson
+      (compatible secondary beats allowed)
+- [ ] Milestone track chosen; any track transition authored deliberately
 - [ ] All `requiredCapabilities` exist in `docs/CAPABILITIES.md`
 - [ ] Naming handled (player / Harley / fixed)
 - [ ] Photo licensed, credited, in `assets.json` + `CREDITS.md`,
