@@ -102,7 +102,8 @@ splits are inferred from case reports rather than published tables.
 
 ## Using these well
 
-- **Vary the outcomes.** Real caseloads mix releases, sanctuary placements, referrals, and losses. The roster should too.
+- **The two-death rule.** The finished game contains exactly two deaths, and neither happens at the player's facility. Many seeds below would realistically end in euthanasia (distemper, rabies-suspicion, gunshot, antifreeze, catastrophic fractures) — in Fox & Found those become *referral/recognition* cases: the correct play is recognizing the case is beyond the rescue and sending it to a qualified partner, where the outcome unfolds off-screen and is reported back with care. The deaths are authored story beats, never random outcomes and never the player's fault.
+- **Vary the outcomes.** Within that rule, the roster still mixes releases, sanctuary placements, referrals, and transfers.
 - **Mind the welfare razor.** If a seed's natural game version would reward the player for a poor welfare choice, redesign the mechanic — don't just narrate around it.
 - **Seeds are not stories.** Two cases can share a seed category (e.g. two mange cases) if their lessons differ — FOX-003 (demodectic) and FOX-004 (sarcoptic referral) already prove this.
 - **Caption photos honestly.** Every image needs its licensed source, attribution, and the fiction notice per `docs/CASE-TEMPLATE.md`.
