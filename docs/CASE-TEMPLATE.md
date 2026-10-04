@@ -35,7 +35,7 @@ ethically while rewarding them for doing otherwise.
 
 Pick one per case:
 
-1. **Release case** — rehabilitation arc ending in release. Uses
+1. **Release case** — release-directed rehabilitation arc. Uses
    rehabilitation milestones.
 2. **Permanent resident** — cannot be released safely. Uses wellbeing
    milestones. (Examples: Loki; the surrendered pet fox bred for pelt colour.)
@@ -66,7 +66,7 @@ if authored deliberately — never as a surprise punishment.
 | `expectedDurationWeeks` | Realistic rehab length. Mark as tunable. |
 | `milestones` | See milestone tracks below. |
 | `partnerOutcomeDirection` | For referral/transfer cases: where the story goes next. |
-| `designPurpose` | Required. One paragraph, one lesson. |
+| `designPurpose` | Required. One paragraph identifying the primary design purpose; compatible secondary beats allowed. |
 | `image` | Path under `images/foxes/`, or `null` — never a generated placeholder. |
 
 ## Milestone tracks
