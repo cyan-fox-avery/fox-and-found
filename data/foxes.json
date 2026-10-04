@@ -23,6 +23,132 @@
       "status": "provisional beyond core Loki concept"
     },
     "image": "images/foxes/fox-001-loki.jpg",
-    "notes": "Tutorial fox and permanent first resident of Fox & Found. Already named by Harley before the player begins."
+    "designPurpose": [
+      "tutorial",
+      "permanent-sanctuary-outcome"
+    ]
+  },
+  {
+    "id": "FOX-002",
+    "name": null,
+    "species": "Vulpes vulpes",
+    "sex": "female",
+    "ageClass": "young adult",
+    "tutorial": true,
+    "permanentResident": false,
+    "playerCanRename": true,
+    "intake": {
+      "reason": "Sideswiped by a vehicle; suspected hind-leg fracture",
+      "initialConcern": "hind-leg fracture",
+      "assessment": "Significant soft-tissue injury and bruising; no fracture"
+    },
+    "prognosis": "excellent",
+    "releasePotential": "high",
+    "temperament": [
+      "extremely wary of humans",
+      "defensive",
+      "strong human avoidance"
+    ],
+    "requiredCapabilities": [
+      "basic-intake",
+      "basic-rehab",
+      "low-contact-care",
+      "camera-observation"
+    ],
+    "expectedDurationWeeks": {
+      "min": 5,
+      "max": 7,
+      "status": "prototype"
+    },
+    "designPurpose": [
+      "first-rehabilitation",
+      "first-release",
+      "naming-tutorial",
+      "wild-human-avoidance"
+    ]
+  },
+  {
+    "id": "FOX-003",
+    "name": null,
+    "species": "Vulpes vulpes",
+    "sex": "male",
+    "ageClass": "older adult",
+    "playerCanRename": true,
+    "appearance": [
+      "very dark auburn/red coat",
+      "permanently wonky or notched ear"
+    ],
+    "intake": {
+      "reason": "Patchy hair loss and irritated skin; suspected mange",
+      "assessment": "Localized demodectic mange / demodicosis"
+    },
+    "generalCondition": [
+      "somewhat underweight",
+      "run-down",
+      "stable"
+    ],
+    "prognosis": "good",
+    "releasePotential": "good",
+    "requiredCapabilities": [
+      "basic-intake",
+      "basic-rehab",
+      "low-contact-care"
+    ],
+    "designPurpose": [
+      "diagnosis-before-assumption",
+      "coat-regrowth-recovery"
+    ]
+  },
+  {
+    "id": "FOX-004",
+    "name": null,
+    "species": "Vulpes vulpes",
+    "sex": "female",
+    "ageClass": "subadult",
+    "playerCanRename": true,
+    "intake": {
+      "reason": "Extensive hair loss, crusting skin, and persistent scratching",
+      "assessment": "Sarcoptic mange"
+    },
+    "earlyGameDisposition": "refer",
+    "missingCapability": "infectious-isolation",
+    "partnerOutcomeDirection": [
+      "treatment",
+      "outdoor-rehabilitation",
+      "release"
+    ],
+    "designPurpose": [
+      "first-responsible-referral",
+      "infectious-isolation-motivation"
+    ]
+  },
+  {
+    "id": "FOX-005",
+    "name": null,
+    "species": "Vulpes vulpes",
+    "sex": "male",
+    "ageClass": "subadult",
+    "playerCanRename": true,
+    "intake": {
+      "reason": "Entangled in discarded garden or netting material",
+      "assessment": "Superficial abrasions, mild dehydration, high stress; no major injury"
+    },
+    "prognosis": "excellent",
+    "releasePotential": "high",
+    "requiredCapabilities": [
+      "basic-intake",
+      "basic-rehab",
+      "low-contact-care"
+    ],
+    "expectedDurationWeeks": {
+      "min": 2,
+      "max": 4,
+      "status": "prototype"
+    },
+    "designPurpose": [
+      "capacity-planning",
+      "short-case",
+      "entanglement-education"
+    ]
   }
 ]
