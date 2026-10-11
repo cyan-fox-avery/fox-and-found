@@ -68,3 +68,60 @@ each other. Harley takes one look and starts dialing north.
 - The northern sanctuary: name, location, recurring partner?
 - Design purposes for the amber, silver, and farm-closure cases.
 - Names — Harley names foxes in-game; working titles above are not names.
+
+---
+
+## The woodpile kits
+
+A caller brings in four kits found in a woodpile, eyes barely open, no
+mother in sight. Harley's first question: "Did you *see* her dead, or did
+you just not see her?" The win here might be putting them back and watching
+from a distance.
+
+- Category: orphaned (possibly mistakenly).
+- Design purpose: open (restraint — not every call is a rescue).
+
+## The dawn commuter
+
+Found at 6am by a driver, dragging a hind leg off the road's edge — car
+strike, fractured leg. Alert, furious, very much alive. The most ordinary
+intake in the world, which is exactly why it belongs.
+
+- Category: injured (road traffic).
+- Design purpose: open (the rehab milestone track's bread and butter?).
+
+## The bald fox
+
+A homeowner's photo: a fox with half its fur gone, skin thick and grey.
+Looks like a monster; is actually just sarcoptic mange — miserable, but
+fixable with patience. The transformation case.
+
+- Category: sick (sarcoptic mange).
+- Design purpose: open.
+
+## The culvert family
+
+Spring melt flooded the riverbank den. The vixen moved her kits the only
+place she could — a drainage culvert under a busy road. Displaced, not sick;
+the problem is geography.
+
+- Category: displaced (environmental).
+- Design purpose: open.
+
+## The stumbling fox
+
+Found circling in a garden, uncoordinated, vacant-eyed. The vet suspects
+secondary rodenticide poisoning — ate poisoned rats. The case might not end
+at the fox; it might end with the street switching to snap traps.
+
+- Category: sick (poisoning).
+- Design purpose: open (the community beat?).
+
+## The "nuisance"
+
+A homeowner live-trapped a healthy fox and wants it "taken away." There is
+nothing wrong with this fox. It just lives there. The case is the
+conversation.
+
+- Category: human–wildlife conflict.
+- Design purpose: open (paired with the woodpile kits: not every call is a rescue).
