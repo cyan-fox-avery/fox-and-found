@@ -31,6 +31,22 @@ ethically while rewarding them for doing otherwise.
 
 (Proposed by ChatGPT in the design-lab thread.)
 
+## The no-death rule
+
+Other than the two specific scripted deaths — the elderly fox who dies
+naturally, and the younger fox euthanized to prevent suffering, both at the
+sister sanctuary and both decided by partner-facility veterinarians
+off-screen — no fox dies in this game.
+
+No fox can die from player actions, mistakes, or case outcomes. When a
+choice would harm a fox, the game intervenes first: Harley stops the
+overfeed, the case reroutes to referral, the vets take the decision
+off-screen. Setbacks affect the organization, never the animals.
+
+The two deaths are authored story beats, never random outcomes and never
+the player's fault. They arrive with Harley's messages, and they are the
+only exceptions to this rule.
+
 ## Case kinds
 
 Pick one per case:
