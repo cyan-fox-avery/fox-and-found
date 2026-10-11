@@ -125,3 +125,62 @@ conversation.
 
 - Category: human–wildlife conflict.
 - Design purpose: open (paired with the woodpile kits: not every call is a rescue).
+
+---
+
+## Late-campaign sketches
+
+More layered cases for later in the game — overlapping problems, harder
+calls, payoffs for capabilities built earlier. All five are Avery-approved
+keepers (2026-10-10).
+
+### The nursing vixen
+
+Hit by a car, alive — and nursing, with kits stashed somewhere nearby. The
+complication is the clock: every hour she's in surgery is an hour four kits
+go unfed. Treat her and hand-rear the kits, or stabilize her fast and get
+her back before they starve? Triage under pressure.
+
+- Category: injured + orphaned (overlapping).
+- Design purpose: open.
+
+### The distemper suspicion
+
+Neurological signs, vacant stare, discharge — could be distemper, which is
+contagious and often fatal. This is what the isolation unit was *for*
+(FOX-004 pays off). And if it is distemper, the hard call goes to the sister
+sanctuary's vets, off-screen, never to the player. The lesson: some cases
+end with handing the decision to better-equipped hands.
+
+- Category: sick (infectious disease).
+- Design purpose: open. Respects the two-death rule — no player-caused death.
+
+### The old snare
+
+Found in an illegal snare — days, by the dehydration. The leg might heal,
+might not. The complication is the long arc: rehab milestones slowly bending
+toward a wellbeing track, and the question underneath it all — what if she's
+never releasable? The case that teaches the deliberate milestone transition.
+
+- Category: injured (snare).
+- Design purpose: open (rehab-to-wellbeing transition).
+
+### The six
+
+Six orphaned kits, late in the season, and the rescue is nearly full.
+Hand-rearing one kit is devotion; hand-rearing six is logistics. The
+complication is capacity — can you give all six what they need, or do some
+go to a partner? Knowing your limits *is* the welfare decision.
+
+- Category: orphaned (scale).
+- Design purpose: open.
+
+### The return
+
+A fox you released months ago is back — injured. Harley recognizes her. The
+complication is entirely emotional: was the release wrong? (It wasn't. Wild
+life is dangerous, and a re-injury isn't a failure.) Late-game on purpose —
+it only lands once the player has releases behind them.
+
+- Category: injured (re-admission).
+- Design purpose: open.
