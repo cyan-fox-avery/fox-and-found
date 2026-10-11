@@ -184,3 +184,62 @@ it only lands once the player has releases behind them.
 
 - Category: injured (re-admission).
 - Design purpose: open.
+
+---
+
+## Second intake batch (slightly more complicated)
+
+Five more sketches, each with one extra knot. All Avery-approved keepers
+(2026-10-10).
+
+### The cloudy eye
+
+Found bumping into garden fences — one eye clouded white from an old fight
+injury, the other fine. The complication is time: nobody knows for weeks
+whether the sight comes back. Harley: "We don't know yet. That's the whole
+case."
+
+- Category: sick (eye injury).
+- Design purpose: open (patience/assessment — living with "we don't know").
+
+### The patio regular
+
+A neighborhood fox raised on handouts, now bold enough to snatch food off
+patios — and starting to get pushy about it. Healthy, but hard habituation
+bars release, and it's nobody's pet. The patient here is the street, not
+the fox.
+
+- Category: habituation.
+- Design purpose: open.
+
+### The soccer net
+
+Found at dawn, thrashed overnight in a school soccer net — and the abrasions
+have gone septic. What looked like a quick free-and-release becomes weeks
+of antibiotics. The visible problem wasn't the real problem.
+
+- Category: injured (entanglement + infection).
+- Design purpose: open.
+
+### The rubble kits
+
+Builders collapsed a den on a deadline; three cubs pulled from the rubble,
+one with a crushed paw. Orphaned *and* injured, and the clock started
+before anyone called. Two categories, one tiny pile of fox.
+
+- Category: orphaned + injured.
+- Design purpose: open.
+
+### The skeleton
+
+Found skeletal in late February, mange on top of starvation. The
+complication is the feeding: everyone's instinct is a mountain of food,
+right now — and that can kill a starved animal. Refeeding has to be slow.
+The kindest-looking action is the cruelest one.
+
+**Design constraint (Avery, 2026-10-10): this case cannot end in death. If
+the player chooses to feed it a lot, Harley stops them.** The expert
+safety net holds — the game never lets a wrong choice kill a fox.
+
+- Category: displaced/starved (environmental).
+- Design purpose: open (restraint as care — the welfare razor in miniature).
